@@ -12,8 +12,8 @@ using std::endl;
 int main() {
     //8_1
     std::vector<Student> vec(1, Student());
-    vec.emplace_back("Zakhar", "Proselkov", 12345);
-    vec.push_back(Student("Misha", "Efremov", 12345));
+    vec.emplace_back("Vadim", "Barannikov", 12345);
+    vec.push_back(Student("Ezzhi", "Bigorov", 12345));
 
     for (auto student: vec)
         cout << student << endl;
@@ -31,7 +31,7 @@ int main() {
     //8_3
     std::queue<Car> myQueue;
 
-    myQueue.push(Car("Lada"));
+    myQueue.push(Car("Mercedes"));
     myQueue.emplace("Ferrari");
 
 
